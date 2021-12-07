@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+ html{
+  background: url(C:/Users/Александр/ахринеть/Group2.jpg) no-repeat center center;
+  min-height: 100%;
+  background-size: cover;
+}
+
+h1 {font-family: Akzidenz-Grotesk Pro XBd Cnd; 
+  font-size: 57.33px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.9) 48.44%, rgba(255, 255, 255, 0.48) 100%);
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 4px; margin-bottom: 4px;
+}
+
+p {
+  color: white; font-size: 16px; font-family:Akzidenz-Grotesk Pro XBd Cnd;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.24) 48.44%, rgba(255, 255, 255, 0.16) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px; margin-bottom: 15px;
+}
+
+.knopka { color: #999999; font-size: 16ps; font-family:Akzidenz-Grotesk Pro XBd Cnd;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.89) 48.44%, rgba(255, 255, 255, 0.25) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button:hover{
+  transform: scale(1.08); transition: 0.32s}
+
+
+.button {
+display: inline-block; 
+padding: 16px 0px; 
+background: rgba(255, 255, 255, 0.10); 
+border-radius: 8px; 
+padding: 10px 30px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+transition: 0.72s}
+
+.center1 {
+  margin: 50% 0%;
+}
+
+.icons {position: fixed; bottom: 0px; left: 0px; width: 100%; margin-bottom: 56px;}
+.icons a { margin: 0px 8px; }
+.icons a img {opacity: 0.48; transition: 0.72s}
+.icons a:hover img {opacity: 0.90; transition: 0.32s; }
